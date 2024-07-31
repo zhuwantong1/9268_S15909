@@ -128,6 +128,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/build
 .PHONY : 9268+S15909.elf/fast
 
+Core/Src/AD9268.obj: Core/Src/AD9268.c.obj
+.PHONY : Core/Src/AD9268.obj
+
+# target to build an object file
+Core/Src/AD9268.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj
+.PHONY : Core/Src/AD9268.c.obj
+
+Core/Src/AD9268.i: Core/Src/AD9268.c.i
+.PHONY : Core/Src/AD9268.i
+
+# target to preprocess a source file
+Core/Src/AD9268.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.i
+.PHONY : Core/Src/AD9268.c.i
+
+Core/Src/AD9268.s: Core/Src/AD9268.c.s
+.PHONY : Core/Src/AD9268.s
+
+# target to generate assembly for a file
+Core/Src/AD9268.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.s
+.PHONY : Core/Src/AD9268.c.s
+
 Core/Src/Retarget.obj: Core/Src/Retarget.c.obj
 .PHONY : Core/Src/Retarget.obj
 
@@ -937,6 +961,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 9268+S15909.elf
+	@echo ... Core/Src/AD9268.obj
+	@echo ... Core/Src/AD9268.i
+	@echo ... Core/Src/AD9268.s
 	@echo ... Core/Src/Retarget.obj
 	@echo ... Core/Src/Retarget.i
 	@echo ... Core/Src/Retarget.s

@@ -25,7 +25,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "retarget.h"
+#include "Retarget.h"
+#include "AD9268.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,7 +59,7 @@ void PeriphCommonClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint16_t  adc_16bit_value;
 /* USER CODE END 0 */
 
 /**
@@ -106,6 +107,9 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart1);
+    HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+    HAL_TIM_PWM_Start(&htim4,TIM_CHANNEL_1);
+    Init_AD9268();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -113,8 +117,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      printf("hello\r\n");
+
     /* USER CODE BEGIN 3 */
+      adc_16bit_value = GPIOD->IDR;
+      printf("%d\r\n",adc_16bit_value);
+
   }
   /* USER CODE END 3 */
 }

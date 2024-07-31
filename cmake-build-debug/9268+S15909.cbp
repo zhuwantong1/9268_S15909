@@ -96,6 +96,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/AD9268.h">
+			<Option target="9268+S15909.elf"/>
+		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/Retarget.h">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
@@ -118,6 +121,9 @@
 			<Option target="9268+S15909.elf"/>
 		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/usart.h">
+			<Option target="9268+S15909.elf"/>
+		</Unit>
+		<Unit filename="D:/cubecode/9268+S15909/Core/Src/AD9268.c">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Src/Retarget.c">

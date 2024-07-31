@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "9268+S15909.elf"
   "9268+S15909.elf.manifest"
   "9268+S15909.elf.pdb"
+  "CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj"
+  "CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj.d"
   "CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.obj"
   "CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.obj.d"
   "CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj"

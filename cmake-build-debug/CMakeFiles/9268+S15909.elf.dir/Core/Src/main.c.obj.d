@@ -59,7 +59,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: \
  D:\cubecode\9268+S15909\Core\Inc/tim.h \
  D:\cubecode\9268+S15909\Core\Inc/usart.h \
  D:\cubecode\9268+S15909\Core\Inc/gpio.h \
- D:\cubecode\9268+S15909\Core\Inc/retarget.h \
+ D:\cubecode\9268+S15909\Core\Inc/Retarget.h \
  D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Inc/stm32H7xx_hal.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stat.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\time.h \
@@ -78,4 +78,6 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdio.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
- f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h
+ f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
+ D:\cubecode\9268+S15909\Core\Inc/AD9268.h \
+ D:\cubecode\9268+S15909\Core\Inc/spi.h
