@@ -54,8 +54,9 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: \
  D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
  D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
- D:\cubecode\9268+S15909\Core\Inc/spi.h \
+ D:\cubecode\9268+S15909\Core\Inc/dma.h \
  D:\cubecode\9268+S15909\Core\Inc/main.h \
+ D:\cubecode\9268+S15909\Core\Inc/spi.h \
  D:\cubecode\9268+S15909\Core\Inc/tim.h \
  D:\cubecode\9268+S15909\Core\Inc/usart.h \
  D:\cubecode\9268+S15909\Core\Inc/gpio.h \
@@ -80,4 +81,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
  D:\cubecode\9268+S15909\Core\Inc/AD9268.h \
- D:\cubecode\9268+S15909\Core\Inc/spi.h
+ D:\cubecode\9268+S15909\Core\Inc/spi.h \
+ f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h \
+ f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
+ f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h

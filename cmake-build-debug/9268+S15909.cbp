@@ -102,6 +102,9 @@
 		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/Retarget.h">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
+		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/dma.h">
+			<Option target="9268+S15909.elf"/>
+		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/gpio.h">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
@@ -127,6 +130,9 @@
 			<Option target="9268+S15909.elf"/>
 		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Src/Retarget.c">
+			<Option target="9268+S15909.elf"/>
+		</Unit>
+		<Unit filename="D:/cubecode/9268+S15909/Core/Src/dma.c">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Src/gpio.c">

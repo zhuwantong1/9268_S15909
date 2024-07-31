@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "spi.h"
 #include "tim.h"
 #include "usart.h"
@@ -27,6 +28,7 @@
 /* USER CODE BEGIN Includes */
 #include "Retarget.h"
 #include "AD9268.h"
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -59,7 +61,8 @@ void PeriphCommonClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint16_t  adc_16bit_value;
+uint16_t  adc_16bit_value[512];
+uint8_t adc_ans[1024];
 /* USER CODE END 0 */
 
 /**
@@ -99,11 +102,12 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_SPI1_Init();
+  MX_DMA_Init();
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_TIM3_Init();
   MX_TIM4_Init();
+  MX_SPI1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart1);
@@ -119,8 +123,14 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-      adc_16bit_value = GPIOD->IDR;
-      printf("%d\r\n",adc_16bit_value);
+    for(int i=0;i<512;i++)
+    {
+        adc_16bit_value[i] = GPIOD->IDR;
+    }
+      memcpy(adc_ans,adc_16bit_value,1024);
+      HAL_UART_Transmit_DMA(&huart1,adc_ans,1024);
+      //printf("%d\r\n",adc_16bit_value);
+      HAL_Delay(1000);
 
   }
   /* USER CODE END 3 */

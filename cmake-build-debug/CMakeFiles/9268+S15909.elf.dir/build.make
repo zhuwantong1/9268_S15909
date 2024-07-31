@@ -96,10 +96,24 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.s"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubecode\9268+S15909\Core\Src\Retarget.c -o CMakeFiles\9268+S15909.elf.dir\Core\Src\Retarget.c.s
 
+CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
+CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
+CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj"
+	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\dma.c.obj -c D:\cubecode\9268+S15909\Core\Src\dma.c
+
+CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.i"
+	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\cubecode\9268+S15909\Core\Src\dma.c > CMakeFiles\9268+S15909.elf.dir\Core\Src\dma.c.i
+
+CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.s"
+	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubecode\9268+S15909\Core\Src\dma.c -o CMakeFiles\9268+S15909.elf.dir\Core\Src\dma.c.s
+
 CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\gpio.c.obj -c D:\cubecode\9268+S15909\Core\Src\gpio.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\main.c.obj -c D:\cubecode\9268+S15909\Core\Src\main.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\spi.c.obj -c D:\cubecode\9268+S15909\Core\Src\spi.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: ../Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj -c D:\cubecode\9268+S15909\Core\Src\stm32h7xx_hal_msp.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.obj: ../Core/Src/stm32h7xx_it.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\stm32h7xx_it.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\stm32h7xx_it.c.obj -c D:\cubecode\9268+S15909\Core\Src\stm32h7xx_it.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\syscalls.c.obj -c D:\cubecode\9268+S15909\Core\Src\syscalls.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\sysmem.c.obj -c D:\cubecode\9268+S15909\Core\Src\sysmem.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.obj: ../Core/Src/system_stm32h7xx.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\system_stm32h7xx.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\system_stm32h7xx.c.obj -c D:\cubecode\9268+S15909\Core\Src\system_stm32h7xx.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/system_stm32h7xx.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\tim.c.obj -c D:\cubecode\9268+S15909\Core\Src\tim.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/tim.c.s: cmake_force
 CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
 CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Core\Src\usart.c.obj -c D:\cubecode\9268+S15909\Core\Src\usart.c
 
 CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/9268+S15909.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj: ../Core/Startup/startup_stm32h750vbtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/9268+S15909.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/9268+S15909.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\9268+S15909.elf.dir\Core\Startup\startup_stm32h750vbtx.s.obj -c D:\cubecode\9268+S15909\Core\Startup\startup_stm32h750vbtx.s
 
 CMakeFiles/9268+S15909.elf.dir/Core/Startup/startup_stm32h750vbtx.s.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/9268+S15909.elf.dir/Core/Startup/startup_stm32h750vbtx.s.s: cmake_for
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_co
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dm
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dm
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ex
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fl
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fl
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gp
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hs
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_md
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pw
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pw
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rc
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rc
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sp
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sp
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ti
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ti
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ua
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/flags.make
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/9268+S15909.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
 	F:\WORK\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles\9268+S15909.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj -c D:\cubecode\9268+S15909\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c
 
 CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i: cmake_force
@@ -561,6 +575,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ua
 9268___S15909_elf_OBJECTS = \
 "CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj" \
 "CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.obj" \
+"CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj" \
@@ -600,6 +615,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ua
 
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.obj
+9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj
@@ -635,7 +651,7 @@ CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ua
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/build.make
 9268+S15909.elf: CMakeFiles/9268+S15909.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable 9268+S15909.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cubecode\9268+S15909\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking C executable 9268+S15909.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\9268+S15909.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/cubecode/9268+S15909/cmake-build-debug/9268+S15909.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/cubecode/9268+S15909/cmake-build-debug/9268+S15909.bin"
