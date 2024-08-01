@@ -61,8 +61,8 @@ void PeriphCommonClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint16_t  adc_16bit_value[512];
-uint8_t adc_ans[1024];
+
+
 /* USER CODE END 0 */
 
 /**
@@ -74,12 +74,6 @@ int main(void)
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
-
-  /* Enable I-Cache---------------------------------------------------------*/
-  SCB_EnableICache();
-
-  /* Enable D-Cache---------------------------------------------------------*/
-  SCB_EnableDCache();
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -123,14 +117,15 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    for(int i=0;i<512;i++)
-    {
-        adc_16bit_value[i] = GPIOD->IDR;
-    }
-      memcpy(adc_ans,adc_16bit_value,1024);
-      HAL_UART_Transmit_DMA(&huart1,adc_ans,1024);
+//    for(int i=0;i<512;i++)
+//    {
+//        adc_16bit_value[i] = GPIOD->IDR;
+//    }
+//      memcpy(adc_ans,adc_16bit_value,1024);
+//      HAL_UART_Transmit_DMA(&huart1,adc_ans,1024);
       //printf("%d\r\n",adc_16bit_value);
-      HAL_Delay(1000);
+      DMA_Send();
+      //printf("h\r\n");
 
   }
   /* USER CODE END 3 */

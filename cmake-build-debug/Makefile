@@ -200,6 +200,30 @@ Core/Src/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.s
 .PHONY : Core/Src/dma.c.s
 
+Core/Src/dma_send.obj: Core/Src/dma_send.c.obj
+.PHONY : Core/Src/dma_send.obj
+
+# target to build an object file
+Core/Src/dma_send.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/dma_send.c.obj
+.PHONY : Core/Src/dma_send.c.obj
+
+Core/Src/dma_send.i: Core/Src/dma_send.c.i
+.PHONY : Core/Src/dma_send.i
+
+# target to preprocess a source file
+Core/Src/dma_send.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/dma_send.c.i
+.PHONY : Core/Src/dma_send.c.i
+
+Core/Src/dma_send.s: Core/Src/dma_send.c.s
+.PHONY : Core/Src/dma_send.s
+
+# target to generate assembly for a file
+Core/Src/dma_send.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9268+S15909.elf.dir\build.make CMakeFiles/9268+S15909.elf.dir/Core/Src/dma_send.c.s
+.PHONY : Core/Src/dma_send.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -994,6 +1018,9 @@ help:
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s
+	@echo ... Core/Src/dma_send.obj
+	@echo ... Core/Src/dma_send.i
+	@echo ... Core/Src/dma_send.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

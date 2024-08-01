@@ -105,6 +105,9 @@
 		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/dma.h">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
+		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/dma_send.h">
+			<Option target="9268+S15909.elf"/>
+		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Inc/gpio.h">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
@@ -133,6 +136,9 @@
 			<Option target="9268+S15909.elf"/>
 		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Src/dma.c">
+			<Option target="9268+S15909.elf"/>
+		</Unit>
+		<Unit filename="D:/cubecode/9268+S15909/Core/Src/dma_send.c">
 			<Option target="9268+S15909.elf"/>
 		</Unit>
 		<Unit filename="D:/cubecode/9268+S15909/Core/Src/gpio.c">

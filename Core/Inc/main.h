@@ -31,7 +31,8 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "dma_send.h"
+#include "Retarget.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -53,7 +54,16 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
+extern volatile int G_Clk_Rise_Number;
+extern volatile int G_Hamamatsu_Trigger_Rise_Number;
+extern volatile int mul_int ;
+extern volatile int mul_int_max;
 
+
+extern uint16_t adc_ans[540];
+extern uint16_t adc_ans_1[540];
+extern uint16_t adc_ans_2[540];
+void RCCdelay_us(uint32_t udelay);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

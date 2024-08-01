@@ -33,6 +33,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/cubecode/9268+S15909/Core/Src/AD9268.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/AD9268.c.obj.d"
   "D:/cubecode/9268+S15909/Core/Src/Retarget.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/Retarget.c.obj.d"
   "D:/cubecode/9268+S15909/Core/Src/dma.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/dma.c.obj.d"
+  "D:/cubecode/9268+S15909/Core/Src/dma_send.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/dma_send.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/dma_send.c.obj.d"
   "D:/cubecode/9268+S15909/Core/Src/gpio.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/cubecode/9268+S15909/Core/Src/main.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/main.c.obj.d"
   "D:/cubecode/9268+S15909/Core/Src/spi.c" "CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/9268+S15909.elf.dir/Core/Src/spi.c.obj.d"

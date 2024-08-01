@@ -22,6 +22,17 @@
 
 /* USER CODE BEGIN 0 */
 
+
+#include "stdbool.h"
+volatile int mul_int = 0;
+volatile int Segment_1 =10;
+volatile int Segment_2 =505;
+
+uint16_t adc_ans[540]={0};
+
+
+
+
 /* USER CODE END 0 */
 
 TIM_HandleTypeDef htim1;
@@ -255,6 +266,11 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* tim_baseHandle)
     GPIO_InitStruct.Alternate = GPIO_AF1_TIM1;
     HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
+    /* TIM1 interrupt Init */
+    HAL_NVIC_SetPriority(TIM1_TRG_COM_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(TIM1_TRG_COM_IRQn);
+    HAL_NVIC_SetPriority(TIM1_CC_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(TIM1_CC_IRQn);
   /* USER CODE BEGIN TIM1_MspInit 1 */
 
   /* USER CODE END TIM1_MspInit 1 */
@@ -278,6 +294,9 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* tim_baseHandle)
     GPIO_InitStruct.Alternate = GPIO_AF2_TIM3;
     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
+    /* TIM3 interrupt Init */
+    HAL_NVIC_SetPriority(TIM3_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(TIM3_IRQn);
   /* USER CODE BEGIN TIM3_MspInit 1 */
 
   /* USER CODE END TIM3_MspInit 1 */
@@ -374,6 +393,9 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
     */
     HAL_GPIO_DeInit(GPIOE, GPIO_PIN_9);
 
+    /* TIM1 interrupt Deinit */
+    HAL_NVIC_DisableIRQ(TIM1_TRG_COM_IRQn);
+    HAL_NVIC_DisableIRQ(TIM1_CC_IRQn);
   /* USER CODE BEGIN TIM1_MspDeInit 1 */
 
   /* USER CODE END TIM1_MspDeInit 1 */
@@ -391,6 +413,8 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
     */
     HAL_GPIO_DeInit(GPIOC, GPIO_PIN_6);
 
+    /* TIM3 interrupt Deinit */
+    HAL_NVIC_DisableIRQ(TIM3_IRQn);
   /* USER CODE BEGIN TIM3_MspDeInit 1 */
 
   /* USER CODE END TIM3_MspDeInit 1 */
@@ -425,5 +449,68 @@ void HAL_TIM_PWM_MspDeInit(TIM_HandleTypeDef* tim_pwmHandle)
 }
 
 /* USER CODE BEGIN 1 */
+bool set_high = false;
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim->Instance == TIM1 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1) //捕获上升�???
+    {
+
+        if(G_Clk_Rise_Number==0)
+        {
+            HAL_GPIO_WritePin(ST_GPIO_Port, ST_Pin, GPIO_PIN_SET);//如果是第�???个信号沿上升，那就令ST延迟上升
+        }
+        if(G_Clk_Rise_Number==1)
+        {
+            HAL_GPIO_WritePin(ST_GPIO_Port, ST_Pin, GPIO_PIN_RESET);//如果是第二个信号沿上升，那就令ST延迟下降
+        }
+//        if(mul_int<mul_int_max)	//在这里完成EX_INT的高低电平输�???,上升沿EX_INT发生变化
+//        {
+//            if(G_Clk_Rise_Number>1&&G_Clk_Rise_Number<Segment_1*4)
+//            {
+//                HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET); 	  //拉高ex-int
+//            }
+//            else if(G_Clk_Rise_Number>=Segment_1*4&&G_Clk_Rise_Number<Segment_2*4)
+//            {
+//                HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_RESET);  	//拉低ex-int，积�???
+//            }
+//            else
+//            {
+//                HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET);  		//拉高ex-int
+//            }
+//            set_high = true;
+//        }
+//        else if(mul_int==mul_int_max&&set_high == true)
+//        {
+//            if(G_Clk_Rise_Number>1)
+//            {
+//                HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET);			 //拉高ex-int
+//            }
+//            set_high = false;
+//
+//        }
+        G_Clk_Rise_Number++;
+
+    }
+    if (htim->Instance == TIM3 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1) //捕获trigger
+    {
+        //delay_1us();
+        adc_ans[G_Hamamatsu_Trigger_Rise_Number]=GPIOD->IDR;
+        //adc_ans_1[G_Hamamatsu_Trigger_Rise_Number]=GPIOD->IDR;
+        if(adc_ans[G_Hamamatsu_Trigger_Rise_Number]>60000)
+        {
+            adc_ans[G_Hamamatsu_Trigger_Rise_Number]=60000;
+        }
+//        if(adc_ans_1[G_Hamamatsu_Trigger_Rise_Number]>60000)
+//        {
+//            adc_ans_1[G_Hamamatsu_Trigger_Rise_Number]=60000;
+//        }
+//        if(adc_ans_2[G_Hamamatsu_Trigger_Rise_Number]>60000)
+//        {
+//            adc_ans_2[G_Hamamatsu_Trigger_Rise_Number]=60000;
+//        }
+        G_Hamamatsu_Trigger_Rise_Number++;
+        //printf("G_Hamamatsu_Trigger_Rise_Number = %d\r\n",G_Hamamatsu_Trigger_Rise_Number);
+    }
+}
 
 /* USER CODE END 1 */

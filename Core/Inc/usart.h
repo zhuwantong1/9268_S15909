@@ -35,7 +35,7 @@ extern "C" {
 extern UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN Private defines */
-#define USART_REC_LEN               400                                             /* 定义最大接收200字节数据 */
+#define USART_REC_LEN               400                                             /* 定义�?大接�?200字节数据 */
 #define USART_EN_RX                 1                                               /* 使能串口接收 */
 #define RXBUFFERSIZE                1                                               /* 缓存大小 */
 
